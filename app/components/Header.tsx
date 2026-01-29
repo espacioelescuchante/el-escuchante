@@ -41,7 +41,7 @@ export default function Header({
                             className="relative text-base md:text-[16px] lg:text-[18px] font-medium hover:text-[#8A7767] transition-colors group uppercase tracking-[0.15em]"
                         >
                             {item === 'home' ? 'Inicio' : item === 'como-funciona' ? 'Cómo funciona' : item === 'planes' ? 'Planes' : 'FAQ'}
-                            <span className={`absolute -bottom-2 left-1/2 -translate-x-1/2 w-1 h-1 bg-[#E91E63] rounded-full transition-all duration-300 ${currentSection === item ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}></span>
+                            <span className={`absolute -bottom-2 left-1/2 -translate-x-1/2 w-1 h-1 bg-[#2DAAE1] rounded-full transition-all duration-300 ${currentSection === item ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}></span>
                         </button>
                     ))}
                 </div>
@@ -52,7 +52,7 @@ export default function Header({
                         href="https://wa.me/573138185479"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hidden md:block px-6 py-2.5 bg-[#E91E63] text-white text-xs uppercase tracking-[0.15em] hover:bg-[#2C2C2C] transition-all duration-300 rounded-full hover-lift"
+                        className="hidden md:block px-6 py-2.5 bg-[#2DAAE1] text-white text-xs uppercase tracking-[0.15em] hover:bg-[#2C2C2C] transition-all duration-300 rounded-full hover-lift"
                     >
                         Contactar
                     </a>

@@ -113,7 +113,7 @@ export default function Home() {
           height: 20,
         }}
       >
-        <div className="w-full h-full bg-[#E91E63] rounded-full opacity-80"></div>
+        <div className="w-full h-full bg-[#2DAAE1] rounded-full opacity-80"></div>
       </div>
 
       {/* Sidebar Izquierda - Social - Adjusted z-index and opacity */}
@@ -125,7 +125,7 @@ export default function Home() {
           <a href="https://instagram.com/el_escuchante_" target="_blank" rel="noopener" className="hover:text-[#8A7767] transition-colors duration-300">
             <Instagram size={18} strokeWidth={1.5} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener" className="hover:text-[#8A7767] transition-colors duration-300">
+          <a href="https://www.linkedin.com/company/el-escuchante/about/?viewAsMember=true" target="_blank" rel="noopener" className="hover:text-[#8A7767] transition-colors duration-300">
             <Linkedin size={18} strokeWidth={1.5} />
           </a>
         </div>
@@ -195,7 +195,7 @@ export default function Home() {
                 alt="El Escuchante"
                 className="w-full h-full object-contain transition-all duration-700 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-[#E91E63]/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+              <div className="absolute inset-0 bg-[#2DAAE1]/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
             </div>
           </div>
 
@@ -213,7 +213,7 @@ export default function Home() {
               href="https://wa.me/573138185479?text=Hola%2C%20quiero%20agendar%20un%20encuentro%20gratuito"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 md:px-8 md:py-4 rounded-full text-sm md:text-base font-medium bg-[#2C2C2C] text-[#F5EFE8] uppercase tracking-[0.15em] hover:bg-[#E91E63] transition-all duration-300 flex items-center gap-2 group hover-lift"
+              className="px-6 py-3 md:px-8 md:py-4 rounded-full text-sm md:text-base font-medium bg-[#2C2C2C] text-[#F5EFE8] uppercase tracking-[0.15em] hover:bg-[#2DAAE1] transition-all duration-300 flex items-center gap-2 group hover-lift"
             >
               Agendar encuentro
               <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
@@ -238,7 +238,7 @@ export default function Home() {
       <section id="como-funciona" className="py-32 px-6 lg:px-12 relative">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-24">
-            <span className="text-xs uppercase tracking-[0.3em] text-[#E91E63] mb-4 block">Proceso</span>
+            <span className="text-xs uppercase tracking-[0.3em] text-[#2DAAE1] mb-4 block">Proceso</span>
             <h2 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl lg:text-7xl mb-6">
               Cómo <span className="italic text-[#8A7767]">funciona</span>
             </h2>
@@ -273,7 +273,7 @@ export default function Home() {
             ].map((step, idx) => (
               <div key={idx} className="group relative">
                 <div className="flex items-start justify-between mb-6">
-                  <span className="font-[family-name:var(--font-cormorant)] text-5xl text-[#8A7767]/30 group-hover:text-[#E91E63] transition-colors duration-500">{step.num}</span>
+                  <span className="font-[family-name:var(--font-cormorant)] text-5xl text-[#8A7767]/30 group-hover:text-[#2DAAE1] transition-colors duration-500">{step.num}</span>
                   <span className="text-xs uppercase tracking-[0.2em] text-[#8A7767] border border-[#8A7767]/30 px-3 py-1 rounded-full">{step.time}</span>
                 </div>
                 <h3 className="font-[family-name:var(--font-cormorant)] text-3xl mb-4 group-hover:translate-x-2 transition-transform duration-300">{step.title}</h3>
@@ -281,7 +281,7 @@ export default function Home() {
                   {step.desc}
                 </p>
                 <div className="border-t border-[#8A7767]/20 pt-4">
-                  <span className="text-xs uppercase tracking-[0.2em] text-[#E91E63] block mb-2">Resultado</span>
+                  <span className="text-xs uppercase tracking-[0.2em] text-[#2DAAE1] block mb-2">Resultado</span>
                   <p className="text-sm text-[#2C2C2C]/80">{step.result}</p>
                 </div>
               </div>
@@ -293,7 +293,7 @@ export default function Home() {
       {/* Concept Section */}
       <section id="concepto" className="py-32 px-6 lg:px-12 bg-[#2C2C2C] text-[#F5EFE8] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,_#E91E63_0%,_transparent_70%)]"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,_#2DAAE1_0%,_transparent_70%)]"></div>
         </div>
 
         <div className="max-w-6xl mx-auto relative z-10">
@@ -338,7 +338,7 @@ export default function Home() {
       <section id="planes" className="py-32 px-6 lg:px-12">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-24">
-            <span className="text-xs uppercase tracking-[0.3em] text-[#E91E63] mb-4 block">Servicios</span>
+            <span className="text-xs uppercase tracking-[0.3em] text-[#2DAAE1] mb-4 block">Servicios</span>
             <h2 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl lg:text-7xl mb-6">
               Nuestra <span className="italic text-[#8A7767]">oferta</span>
             </h2>
@@ -391,7 +391,7 @@ export default function Home() {
             ].map((plan, idx) => (
               <div key={idx} className={`relative rounded-3xl p-8 transition-all duration-500 hover:-translate-y-2 ${plan.popular ? 'bg-[#2C2C2C] text-[#F5EFE8] border-2 border-[#2C2C2C]' : 'border border-[#8A7767]/20 hover:border-[#8A7767]'}`}>
                 {plan.popular && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#E91E63] text-white px-4 py-1 rounded-full text-xs uppercase tracking-[0.15em] font-semibold">
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#2DAAE1] text-white px-4 py-1 rounded-full text-xs uppercase tracking-[0.15em] font-semibold">
                     Recomendado
                   </div>
                 )}
@@ -417,7 +417,7 @@ export default function Home() {
                   href={`https://wa.me/573138185479?text=Hola%2C%20quiero%20${plan.popular ? 'activar' : 'info%20sobre'}%20el%20Plan%20${plan.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`block w-full px-6 py-4 text-center text-sm uppercase tracking-[0.15em] rounded-full transition-all duration-300 ${plan.popular ? 'bg-[#E91E63] text-white hover:bg-[#F5EFE8] hover:text-[#2C2C2C]' : 'border-2 border-[#2C2C2C] hover:bg-[#2C2C2C] hover:text-[#F5EFE8]'}`}
+                  className={`block w-full px-6 py-4 text-center text-sm uppercase tracking-[0.15em] rounded-full transition-all duration-300 ${plan.popular ? 'bg-[#2DAAE1] text-white hover:bg-[#F5EFE8] hover:text-[#2C2C2C]' : 'border-2 border-[#2C2C2C] hover:bg-[#2C2C2C] hover:text-[#F5EFE8]'}`}
                 >
                   {plan.cta}
                 </a>
@@ -455,7 +455,7 @@ export default function Home() {
       <section id="preguntas" className="py-32 px-6 lg:px-12">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-20">
-            <span className="text-xs uppercase tracking-[0.3em] text-[#E91E63] mb-4 block">Claridad</span>
+            <span className="text-xs uppercase tracking-[0.3em] text-[#2DAAE1] mb-4 block">Claridad</span>
             <h2 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl lg:text-7xl mb-6">
               Preguntas <span className="italic text-[#8A7767]">frecuentes</span>
             </h2>
@@ -529,7 +529,7 @@ export default function Home() {
         href="https://wa.me/573138185479"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-8 right-8 z-50 w-14 h-14 bg-[#E91E63] text-white rounded-full flex items-center justify-center hover:bg-[#2C2C2C] transition-all duration-300 shadow-lg hover:scale-110"
+        className="fixed bottom-8 right-8 z-50 w-14 h-14 bg-[#2DAAE1] text-white rounded-full flex items-center justify-center hover:bg-[#2C2C2C] transition-all duration-300 shadow-lg hover:scale-110"
       >
         <MessageCircle size={24} />
       </a>

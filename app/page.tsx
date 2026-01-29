@@ -210,7 +210,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://wa.me/573138185479?text=Hola%2C%20quiero%20agendar%20un%20encuentro%20gratuito"
+              href="https://wa.me/573144459170?text=Hola%2C%20quiero%20agendar%20un%20encuentro%20gratuito"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 md:px-8 md:py-4 rounded-full text-sm md:text-base font-medium bg-[#2C2C2C] text-[#F5EFE8] uppercase tracking-[0.15em] hover:bg-[#2DAAE1] transition-all duration-300 flex items-center gap-2 group hover-lift"
@@ -414,7 +414,7 @@ export default function Home() {
                 </ul>
 
                 <a
-                  href={`https://wa.me/573138185479?text=Hola%2C%20quiero%20${plan.popular ? 'activar' : 'info%20sobre'}%20el%20Plan%20${plan.name}`}
+                  href={`https://wa.me/573144459170?text=Hola%2C%20quiero%20${plan.popular ? 'activar' : 'info%20sobre'}%20el%20Plan%20${plan.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block w-full px-6 py-4 text-center text-sm uppercase tracking-[0.15em] rounded-full transition-all duration-300 ${plan.popular ? 'bg-[#2DAAE1] text-white hover:bg-[#F5EFE8] hover:text-[#2C2C2C]' : 'border-2 border-[#2C2C2C] hover:bg-[#2C2C2C] hover:text-[#F5EFE8]'}`}
@@ -441,7 +441,7 @@ export default function Home() {
             Un primer espacio para escuchar, ubicar tu situación y decidir con calma cómo continuar.
           </p>
           <a
-            href="https://wa.me/573138185479?text=Hola%2C%20quiero%20agendar%20un%20encuentro%20gratuito"
+            href="https://wa.me/573144459170?text=Hola%2C%20quiero%20agendar%20un%20encuentro%20gratuito"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-10 py-4 bg-[#2C2C2C] text-[#F5EFE8] text-sm uppercase tracking-[0.15em] hover:bg-[#F5EFE8] hover:text-[#2C2C2C] transition-all duration-300 rounded-full"
@@ -509,24 +509,28 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-12 border-t border-[#F5EFE8]/10">
             <span className="text-xs uppercase tracking-[0.15em] text-[#F5EFE8]/70">
-              © 2024 El Escuchante
+              © 2026 EL ESCUCHANTE
             </span>
 
             <div className="flex items-center gap-8">
               <a href="https://instagram.com/el_escuchante_" target="_blank" rel="noopener" className="text-xs uppercase tracking-[0.15em] text-[#F5EFE8]/70 hover:text-[#F5EFE8] transition-colors">
                 Instagram
               </a>
-              <a href="https://wa.me/573138185479" target="_blank" rel="noopener" className="text-xs uppercase tracking-[0.15em] text-[#F5EFE8]/70 hover:text-[#F5EFE8] transition-colors">
+              <a href="https://wa.me/573144459170" target="_blank" rel="noopener" className="text-xs uppercase tracking-[0.15em] text-[#F5EFE8]/70 hover:text-[#F5EFE8] transition-colors">
                 WhatsApp
               </a>
             </div>
+
+            <span className="text-xs uppercase tracking-[0.15em] text-[#F5EFE8]/70">
+              Diseñado por SOLUCIONES DE IA
+            </span>
           </div>
         </div>
       </footer>
 
       {/* Floating WhatsApp */}
       <a
-        href="https://wa.me/573138185479"
+        href="https://wa.me/573144459170"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 z-50 w-14 h-14 bg-[#2DAAE1] text-white rounded-full flex items-center justify-center hover:bg-[#2C2C2C] transition-all duration-300 shadow-lg hover:scale-110"

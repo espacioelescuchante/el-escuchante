@@ -177,7 +177,7 @@ export default function Home() {
       </div>
 
       {/* Hero Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center px-6 lg:px-12 pt-20 relative overflow-hidden">
+      <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-12 pt-20 relative overflow-hidden">
         {/* Background Element - z-0 */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] opacity-5 pointer-events-none z-0">
           <div className="w-full h-full border border-[#8A7767] rounded-full animate-[spin_20s_linear_infinite]"></div>
@@ -199,12 +199,12 @@ export default function Home() {
             </div>
           </div>
 
-          <h1 className="font-[family-name:var(--font-cormorant)] text-6xl md:text-8xl lg:text-9xl leading-[0.9] tracking-tight mb-6">
+          <h1 className="font-[family-name:var(--font-cormorant)] text-4xl sm:text-5xl md:text-8xl lg:text-9xl leading-[0.9] tracking-tight mb-6 px-2">
             Escuchar lo<br />
             <span className="text-[#8A7767] italic">que sientes</span>
           </h1>
 
-          <p className="font-[family-name:var(--font-montserrat)] text-lg md:text-xl text-[#2C2C2C]/70 max-w-2xl mx-auto mb-12 leading-relaxed">
+          <p className="font-[family-name:var(--font-montserrat)] text-base sm:text-lg md:text-xl text-[#2C2C2C]/70 max-w-2xl mx-auto mb-12 leading-relaxed px-2">
             Una lectura filosófica que convierte tu experiencia en una ruta clara de trabajo
           </p>
 
@@ -235,14 +235,14 @@ export default function Home() {
       </section>
 
       {/* How It Works Section */}
-      <section id="como-funciona" className="py-32 px-6 lg:px-12 relative">
+      <section id="como-funciona" className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-12 relative">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-24">
             <span className="text-xs uppercase tracking-[0.3em] text-[#2DAAE1] mb-4 block">Proceso</span>
-            <h2 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl lg:text-7xl mb-6">
+            <h2 className="font-[family-name:var(--font-cormorant)] text-3xl sm:text-4xl md:text-6xl lg:text-7xl mb-6">
               Cómo <span className="italic text-[#8A7767]">funciona</span>
             </h2>
-            <p className="font-[family-name:var(--font-montserrat)] text-lg text-[#2C2C2C]/70 max-w-2xl mx-auto">
+            <p className="font-[family-name:var(--font-montserrat)] text-sm sm:text-base md:text-lg text-[#2C2C2C]/70 max-w-2xl mx-auto px-4">
               Un algoritmo de escucha: lectura de sentido y ruta clara de trabajo
             </p>
           </div>
@@ -291,7 +291,7 @@ export default function Home() {
       </section>
 
       {/* Concept Section */}
-      <section id="concepto" className="py-32 px-6 lg:px-12 bg-[#2C2C2C] text-[#F5EFE8] relative overflow-hidden">
+      <section id="concepto" className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-12 bg-[#2C2C2C] text-[#F5EFE8] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,_#2DAAE1_0%,_transparent_70%)]"></div>
         </div>
@@ -299,21 +299,21 @@ export default function Home() {
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-20 items-center">
             <div className="text-center lg:text-right">
-              <h3 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl lg:text-6xl leading-tight">
+              <h3 className="font-[family-name:var(--font-cormorant)] text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
                 No es terapia,<br />
                 <span className="text-[#8A7767] italic">ni coaching.</span>
               </h3>
             </div>
 
             <div className="flex justify-center">
-              <div className="w-64 h-64 border border-[#8A7767] rounded-full flex items-center justify-center relative animate-[spin_30s_linear_infinite]">
+              <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 border border-[#8A7767] rounded-full flex items-center justify-center relative animate-[spin_30s_linear_infinite]">
                 <div className="absolute inset-4 border border-[#8A7767]/50 rounded-full animate-[spin_20s_linear_infinite_reverse]"></div>
-                <span className="font-[family-name:var(--font-cormorant)] text-8xl opacity-20">¿</span>
+                <span className="font-[family-name:var(--font-cormorant)] text-6xl sm:text-7xl md:text-8xl opacity-20">¿</span>
               </div>
             </div>
 
             <div className="text-center lg:text-left">
-              <h3 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl lg:text-6xl leading-tight">
+              <h3 className="font-[family-name:var(--font-cormorant)] text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
                 Es un espacio<br />
                 <span className="text-[#8A7767] italic">alternativo.</span>
               </h3>
@@ -321,7 +321,7 @@ export default function Home() {
           </div>
 
           <div className="mt-24 text-center max-w-3xl mx-auto">
-            <p className="font-[family-name:var(--font-montserrat)] text-xl text-[#F5EFE8]/80 leading-relaxed mb-12">
+            <p className="font-[family-name:var(--font-montserrat)] text-base sm:text-lg md:text-xl text-[#F5EFE8]/80 leading-relaxed mb-12 px-4">
               La filosofía no es solo teoría. Es una herramienta viva para desentrañar lo que nos pesa. Exploramos tus inquietudes desde una perspectiva existencial.
             </p>
             <button
@@ -335,11 +335,11 @@ export default function Home() {
       </section>
 
       {/* Plans Section */}
-      <section id="planes" className="py-32 px-6 lg:px-12">
+      <section id="planes" className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-12 relative overflow-hidden">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-24">
+          <div className="text-center mb-12 sm:mb-16 md:mb-24">
             <span className="text-xs uppercase tracking-[0.3em] text-[#2DAAE1] mb-4 block">Servicios</span>
-            <h2 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl lg:text-7xl mb-6">
+            <h2 className="font-[family-name:var(--font-cormorant)] text-3xl sm:text-4xl md:text-6xl lg:text-7xl mb-6">
               Nuestra <span className="italic text-[#8A7767]">oferta</span>
             </h2>
           </div>
@@ -432,19 +432,19 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 px-6 lg:px-12 bg-[#8A7767]">
+      <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-12 bg-[#8A7767] relative overflow-hidden">
         <div className="max-w-3xl mx-auto text-center text-[#F5EFE8]">
-          <h3 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl lg:text-6xl mb-6">
+          <h3 className="font-[family-name:var(--font-cormorant)] text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6">
             Agenda un encuentro gratuito
           </h3>
-          <p className="font-[family-name:var(--font-montserrat)] text-lg text-[#F5EFE8]/80 mb-10 leading-relaxed">
+          <p className="font-[family-name:var(--font-montserrat)] text-base sm:text-lg text-[#F5EFE8]/80 mb-10 leading-relaxed px-2">
             Un primer espacio para escuchar, ubicar tu situación y decidir con calma cómo continuar.
           </p>
           <a
             href="https://wa.me/573144459170?text=Hola%2C%20quiero%20agendar%20un%20encuentro%20gratuito"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-10 py-4 bg-[#2C2C2C] text-[#F5EFE8] text-sm uppercase tracking-[0.15em] hover:bg-[#F5EFE8] hover:text-[#2C2C2C] transition-all duration-300 rounded-full"
+            className="inline-block px-6 sm:px-10 py-4 bg-[#2C2C2C] text-[#F5EFE8] text-sm uppercase tracking-[0.15em] hover:bg-[#F5EFE8] hover:text-[#2C2C2C] transition-all duration-300 rounded-full w-full sm:w-auto"
           >
             Comenzar ahora
           </a>
@@ -452,11 +452,11 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section id="preguntas" className="py-32 px-6 lg:px-12">
+      <section id="preguntas" className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-12 relative overflow-hidden">
         <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center mb-12 sm:mb-16 md:mb-20">
             <span className="text-xs uppercase tracking-[0.3em] text-[#2DAAE1] mb-4 block">Claridad</span>
-            <h2 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl lg:text-7xl mb-6">
+            <h2 className="font-[family-name:var(--font-cormorant)] text-3xl sm:text-4xl md:text-6xl lg:text-7xl mb-6">
               Preguntas <span className="italic text-[#8A7767]">frecuentes</span>
             </h2>
           </div>
@@ -468,7 +468,7 @@ export default function Home() {
                 className={`border transition-all duration-500 ${activeFaq === index ? 'border-[#8A7767] bg-[#8A7767]/5' : 'border-[#8A7767]/20 hover:border-[#8A7767]/50'}`}
               >
                 <button
-                  className="w-full text-left p-6 md:p-8 flex items-start justify-between gap-4"
+                  className="w-full text-left p-5 sm:p-6 md:p-8 flex items-start justify-between gap-4"
                   onClick={() => setActiveFaq(activeFaq === index ? null : index)}
                 >
                   <div className="flex-1">
@@ -494,14 +494,14 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#2C2C2C] text-[#F5EFE8] py-20 px-6 lg:px-12">
+      <footer className="bg-[#2C2C2C] text-[#F5EFE8] py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-12 relative overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <img src={logoSrc} alt="El Escuchante" className="w-16 h-16 mx-auto mb-6 opacity-80" />
             <h2 className="font-[family-name:var(--font-cormorant)] text-3xl md:text-4xl mb-6">¿Tienes dudas?</h2>
             <a
               href="mailto:espacioelescuchante@gmail.com"
-              className="inline-block px-8 py-3 border border-[#F5EFE8]/40 text-[#F5EFE8] text-sm uppercase tracking-[0.15em] hover:bg-[#F5EFE8] hover:text-[#2C2C2C] transition-all duration-300 rounded-full"
+              className="inline-block px-4 sm:px-8 py-3 border border-[#F5EFE8]/40 text-[#F5EFE8] text-xs sm:text-sm uppercase tracking-[0.15em] hover:bg-[#F5EFE8] hover:text-[#2C2C2C] transition-all duration-300 rounded-full break-all sm:break-normal"
             >
               espacioelescuchante@gmail.com
             </a>
